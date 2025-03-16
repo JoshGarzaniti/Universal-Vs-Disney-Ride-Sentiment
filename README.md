@@ -1,0 +1,3 @@
+For this anaysis you will need to create a PRAW API developer account. (See instructions within the project itself or visit https://praw.readthedocs.io/en/stable/ for more information).
+You will only be able to scrape the last 1000 posts for each subreddit you wish to analyze (I only looked at titles and main bodies of posts but you can expand this out to comments...
+Just be sure to add the post.comments subsection to the for loops for pulling the comments themselves and then only return unique values for each: titles, self post, and comment so you don't get duplicates
